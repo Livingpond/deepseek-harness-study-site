@@ -6,11 +6,11 @@ hero:
   tagline: 基于固定提交 47f9438 的 12 章中文源码课程。先看系统地图，再沿一条真实请求追到模型、工具、日志与界面。
   actions:
     - text: 开始第一章
-      link: /chapters/01-architecture-boot/
+      link: /deepseek-harness-study-site/chapters/01-architecture-boot/
       icon: right-arrow
       variant: primary
     - text: 查看源码证据
-      link: /reading-guide/
+      link: /deepseek-harness-study-site/reading-guide/
       icon: open-book
     - text: 去 OpenCode 对照学习
       link: https://opencode-study.korah-group.top
@@ -60,18 +60,18 @@ Agent Inbox ──► turn/start ──► Prompt + Tools 组装
 ## 完整课程
 
 <div class="course-grid">
-  <a href="/chapters/01-architecture-boot/"><b>01</b><span><strong>项目地图与启动</strong><small>从 dsh 命令追到插件树</small></span></a>
-  <a href="/chapters/02-cordis-plugin-kernel/"><b>02</b><span><strong>Cordis 插件内核</strong><small>Context、Service、Effect、Waterfall</small></span></a>
-  <a href="/chapters/03-agent-loop/"><b>03</b><span><strong>Agent 主循环</strong><small>Turn、Step、Inbox 与停止条件</small></span></a>
-  <a href="/chapters/04-session-ledger/"><b>04</b><span><strong>Session 事件账本</strong><small>唯一事实源与消息投影</small></span></a>
-  <a href="/chapters/05-llm-streaming/"><b>05</b><span><strong>LLM 流式适配</strong><small>路由、准备、SSE 与错误归一</small></span></a>
-  <a href="/chapters/06-tool-pipeline/"><b>06</b><span><strong>工具执行管线</strong><small>Schema、审批、调度与结果</small></span></a>
-  <a href="/chapters/07-prompt-context/"><b>07</b><span><strong>Prompt 与上下文</strong><small>协作式组装与日志闭环</small></span></a>
-  <a href="/chapters/08-persistence-recovery/"><b>08</b><span><strong>持久化与恢复</strong><small>Write-behind、JSONL、SQLite</small></span></a>
-  <a href="/chapters/09-skills-subagents/"><b>09</b><span><strong>Skills 与 Subagents</strong><small>发现、装载、委托与生命周期</small></span></a>
-  <a href="/chapters/10-cli-profiles/"><b>10</b><span><strong>CLI 与 Profiles</strong><small>Bundle、Patch 与无头运行</small></span></a>
-  <a href="/chapters/11-product-surfaces/"><b>11</b><span><strong>Web / TUI 界面</strong><small>薄入口与事件投影</small></span></a>
-  <a href="/chapters/12-extension-testing/"><b>12</b><span><strong>扩展、测试与实战</strong><small>新增能力的最小闭环</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/01-architecture-boot/"><b>01</b><span><strong>项目地图与启动</strong><small>从 dsh 命令追到插件树</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/02-cordis-plugin-kernel/"><b>02</b><span><strong>Cordis 插件内核</strong><small>Context、Service、Effect、Waterfall</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/03-agent-loop/"><b>03</b><span><strong>Agent 主循环</strong><small>Turn、Step、Inbox 与停止条件</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/04-session-ledger/"><b>04</b><span><strong>Session 事件账本</strong><small>唯一事实源与消息投影</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/05-llm-streaming/"><b>05</b><span><strong>LLM 流式适配</strong><small>路由、准备、SSE 与错误归一</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/06-tool-pipeline/"><b>06</b><span><strong>工具执行管线</strong><small>Schema、审批、调度与结果</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/07-prompt-context/"><b>07</b><span><strong>Prompt 与上下文</strong><small>协作式组装与日志闭环</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/08-persistence-recovery/"><b>08</b><span><strong>持久化与恢复</strong><small>Write-behind、JSONL、SQLite</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/09-skills-subagents/"><b>09</b><span><strong>Skills 与 Subagents</strong><small>发现、装载、委托与生命周期</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/10-cli-profiles/"><b>10</b><span><strong>CLI 与 Profiles</strong><small>Bundle、Patch 与无头运行</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/11-product-surfaces/"><b>11</b><span><strong>Web / TUI 界面</strong><small>薄入口与事件投影</small></span></a>
+  <a href="/deepseek-harness-study-site/chapters/12-extension-testing/"><b>12</b><span><strong>扩展、测试与实战</strong><small>新增能力的最小闭环</small></span></a>
 </div>
 
 ## 三条阅读路线

@@ -15,9 +15,11 @@ const chapters = [
   ['11. Web / TUI 产品界面', 'chapters/11-product-surfaces'],
   ['12. 扩展、测试与实战', 'chapters/12-extension-testing'],
 ];
+const base = '/deepseek-harness-study-site';
 
 export default defineConfig({
-  site: 'https://deepseek-harness-study.korah-group.top',
+  site: 'https://livingpond.github.io',
+  base,
   output: 'static',
   integrations: [
     starlight({
@@ -46,7 +48,7 @@ export default defineConfig({
       editLink: { baseUrl: 'https://github.com/Livingpond/deepseek-harness-study-site/edit/main/' },
       credits: true,
       head: [
-        { tag: 'meta', attrs: { property: 'og:image', content: 'https://deepseek-harness-study.korah-group.top/og.png' } },
+        { tag: 'meta', attrs: { property: 'og:image', content: 'https://livingpond.github.io/deepseek-harness-study-site/og.png' } },
         { tag: 'meta', attrs: { name: 'twitter:card', content: 'summary_large_image' } },
       ],
     }),
