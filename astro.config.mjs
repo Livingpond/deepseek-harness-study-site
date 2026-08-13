@@ -25,6 +25,7 @@ export default defineConfig({
     starlight({
       title: 'DeepSeek Harness 源码学习',
       description: '基于固定源码提交、面向 Java 开发者的 DeepSeek Harness 中文源码课程。',
+      favicon: '/og.png',
       locales: { root: { label: '简体中文', lang: 'zh-CN' } },
       social: [
         { icon: 'github', label: '上游源码', href: 'https://github.com/deepseek-ai/deepseek-harness/tree/47f943859bef60e4160492346772ded9b24f765a' },
