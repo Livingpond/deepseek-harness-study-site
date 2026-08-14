@@ -12,6 +12,7 @@
 ## 写作与验证
 
 - 面向有 Java 背景、正在学习 TypeScript 与 Agent 架构的开发者。
+- 写作前完整阅读 `docs/chapter-quality-contract.md`，复用 `opencode-feynman-module` 与 `opencode-feynman-module-teacher` 的问题驱动、地图优先、费曼复述方法。
 - 每章必须含“本章学习目标”和“一句话讲明白”，先画地图，再追调用链。
 - 明确区分源码事实、设计解读和教学推演。
 - 新增关键结论时同步更新 `scripts/validate-sources.mjs` 的证据索引。
